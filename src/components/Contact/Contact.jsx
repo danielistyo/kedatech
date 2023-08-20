@@ -26,14 +26,14 @@ const Contact = () => {
                     <Form.Control type="text" placeholder="Name" />
                   </Form.Group>
                 </Col>
-                <Col md={6}>
+                <Col md={6} className="phone-input">
                   <Form.Group>
                     <Form.Label>Phone</Form.Label>
                     <Form.Control type="number" placeholder="Phone" />
                   </Form.Group>
                 </Col>
               </Row>
-              <Col>
+              <Col className="message-input">
                 <Form.Group>
                   <Form.Label>Message</Form.Label>
                   <Form.Control as="textarea" rows={4} />
