@@ -31,6 +31,6 @@ export const prices = [
       "Export data ke Excel",
       "AI Prediksi penghasilan",
     ],
-    actionText: "Contact us",
+    actionText: "Get Started",
   },
 ];
