@@ -1,0 +1,19 @@
+.login-modal {
+  .modal-body {
+    padding: 20px;
+  }
+  .title {
+    text-align: center;
+    font-size: 28px;
+  }
+  .form-floating {
+    margin-bottom: 15px;
+  }
+  .action {
+    width: 100%;
+  }
+  .cancel {
+    width: 100%;
+    color: #000;
+  }
+}
