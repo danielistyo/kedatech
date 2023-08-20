@@ -1,0 +1,22 @@
+.price-card {
+  .card-header {
+    text-align: center;
+    background-color: #0dcaf0;
+    color: #fff;
+  }
+  .card-body {
+    min-height: 343px;
+    display: flex;
+    flex-direction: column;
+
+    .btn-info {
+      margin-top: auto;
+      color: #fff;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 10px auto;
+    max-width: 300px;
+  }
+}
