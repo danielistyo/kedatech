@@ -1,0 +1,16 @@
+<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgba(34,106,249,1);stop-opacity:1" />
+      <stop offset="46%" style="stop-color:rgba(157,142,227,1);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(202,150,222,1);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="900" height="600" fill="#ffffff"></rect>
+  <g transform="translate(891.3077237441244 646.1334351723011)">
+    <path
+      d="M206.4 -347.2C262.9 -325 300.7 -260.2 335.9 -195.3C371.1 -130.3 403.5 -65.2 394.2 -5.4C384.8 54.3 333.5 108.7 283.9 148.5C234.2 188.3 186.1 213.7 139.1 235.2C92 256.7 46 274.3 8.9 258.9C-28.1 243.4 -56.3 194.8 -108.5 176.3C-160.8 157.8 -237.1 169.4 -295.1 145C-353 120.7 -392.5 60.3 -373.7 10.8C-355 -38.7 -277.9 -77.3 -233.1 -124.4C-188.3 -171.4 -175.6 -226.9 -142.2 -262.4C-108.7 -297.9 -54.3 -313.4 10.3 -331.3C75 -349.2 150 -369.5 206.4 -347.2"
+      fill="url(#grad1)"></path>
+  </g>
+</svg>
