@@ -1,7 +1,7 @@
 // 1. Buatlah fungsi dengan input array of number untuk mengurutkan angka dari terbesar ke terkecil dengan manual tanpa fungsi bawaan javascript
 // Input : [1, 2, 4, 3, 5, 3, 2, 1]			Expected Output : [5, 4, 3, 3, 2, 2, 1, 1]
 
-const sort = (array) => {
+export const sort = (array) => {
   if (array.length <= 1) {
     return array;
   }
@@ -26,7 +26,7 @@ const sort = (array) => {
 // Input : ([1, 4, 2, 10, 23, 3, 1, 0, 20], 4)		Expected Output : 39 		// didapatkan dari 4 + 2 + 10 + 23
 // Input : ([-3, 4, 0, -2, 6, -1], 2)				Expected Output : 5 		// didapatkan dari 6 + -1
 
-const findMaxSubArray = (array, n) => {
+export const findMaxSubArray = (array, n) => {
   let max = array.slice(0, n).reduce((total, el) => {
     return total + el;
   }, 0);
@@ -64,7 +64,7 @@ const findMaxSubArray = (array, n) => {
 // };
 // Output: 12
 
-const findSumEvenNum = (obj) => {
+export const findSumEvenNum = (obj) => {
   let total = 0;
   for (const key in obj) {
     if (typeof obj[key] === "object") {
