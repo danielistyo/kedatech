@@ -5,7 +5,7 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <div id="contact" className="contact-section">
-      <Container>
+      <Container key="contact" data-aos="fade-up" data-aos-duration="500">
         <Row>
           <Col>
             <div className="contact-detail">
